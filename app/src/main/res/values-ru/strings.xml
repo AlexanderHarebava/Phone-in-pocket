@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone in pocket</string>
+
+
+    <string name="header_tag">PHONE IN POCKET</string>
+    <string name="header_title">Он на месте —\nи ты это чувствуешь</string>
+    <string name="status_active">АКТИВЕН</string>
+    <string name="status_off">ВЫКЛ</string>
+
+
+    <string name="dial_caption_running">сек до вибрации</string>
+    <string name="dial_caption_idle">сек · интервал</string>
+    <string name="no_vibrator_warning">Вибромотор не найден — похоже, устройство не поддерживает вибрацию.</string>
+
+
+    <string name="section_interval">Интервал</string>
+    <string name="section_feeling">Ощущение</string>
+
+
+    <string name="seconds_short">%1$d с</string>
+    <string name="seconds_full">%1$d сек</string>
+
+
+    <string name="btn_start">ЗАПУСТИТЬ ВИБРАЦИЮ</string>
+    <string name="btn_stop">ОСТАНОВИТЬ</string>
+    <string name="preview_vibration_desc">Проверить вибрацию</string>
+    <string name="background_service_note">Таймер работает в фоновом сервисе: экран можно выключить, а в уведомлении останется кнопка «Остановить».</string>
+
+
+    <string name="pattern_click_title">Клик</string>
+    <string name="pattern_click_subtitle">короткий системный щелчок</string>
+
+    <string name="pattern_tick_title">Тик</string>
+    <string name="pattern_tick_subtitle">едва заметный, как наручные часы</string>
+
+    <string name="pattern_double_title">Двойной</string>
+    <string name="pattern_double_subtitle">два быстрых импульса</string>
+
+    <string name="pattern_heavy_title">Тяжёлый клик</string>
+    <string name="pattern_heavy_subtitle">плотный, хорошо ощутимый</string>
+
+    <string name="pattern_pulse_title">Импульс</string>
+    <string name="pattern_pulse_subtitle">длинная ровная вибрация</string>
+
+    <string name="pattern_heartbeat_title">Сердцебиение</string>
+    <string name="pattern_heartbeat_subtitle">тук-тук, как пульс</string>
+
+
+    <string name="notification_title">Телефон на месте</string>
+    <string name="notification_text">«%1$s» — каждые %2$d с</string>
+    <string name="notification_big_text">Вибрация «%1$s» каждые %2$d с. Телефон в кармане — ты это чувствуешь.</string>
+
+    <string name="notification_channel_name">Фоновая вибрация</string>
+    <string name="notification_channel_desc">Показывает, что интервальная вибрация активна</string>
+
+    <plurals name="vibration_interval_seconds">
+        <item quantity="one">%1$d секунду</item>
+        <item quantity="few">%1$d секунды</item>
+
+        <item quantity="many">%1$d секунд</item>
+
+        <item quantity="other">%1$d секунды</item>
+
+    </plurals>
+</resources>

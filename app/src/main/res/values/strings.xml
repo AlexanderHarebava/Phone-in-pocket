@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone in pocket</string>
+
+
+    <string name="header_tag">PHONE IN POCKET</string>
+    <string name="header_title">It\'s right there —\nand you feel it</string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_off">OFF</string>
+
+
+    <string name="dial_caption_running">sec until vibration</string>
+    <string name="dial_caption_idle">sec · interval</string>
+    <string name="no_vibrator_warning">Vibrator not found — it seems this device does not support vibration.</string>
+
+
+    <string name="section_interval">Interval</string>
+    <string name="section_feeling">Sensation</string>
+
+
+    <string name="seconds_short">%1$d s</string>
+    <string name="seconds_full">%1$d sec</string>
+
+
+    <string name="btn_start">START VIBRATION</string>
+    <string name="btn_stop">STOP</string>
+    <string name="preview_vibration_desc">Preview vibration</string>
+    <string name="background_service_note">The timer runs in a background service: you can turn off the screen, and the stop button will remain in the notification.</string>
+
+
+    <string name="pattern_click_title">Click</string>
+    <string name="pattern_click_subtitle">short system haptic click</string>
+
+    <string name="pattern_tick_title">Tick</string>
+    <string name="pattern_tick_subtitle">subtle, like a wrist watch</string>
+
+    <string name="pattern_double_title">Double</string>
+    <string name="pattern_double_subtitle">two rapid pulses</string>
+
+    <string name="pattern_heavy_title">Heavy click</string>
+    <string name="pattern_heavy_subtitle">dense and well noticeable</string>
+
+    <string name="pattern_pulse_title">Pulse</string>
+    <string name="pattern_pulse_subtitle">long smooth vibration</string>
+
+    <string name="pattern_heartbeat_title">Heartbeat</string>
+    <string name="pattern_heartbeat_subtitle">thump-thump, like a pulse</string>
+
+
+    <string name="notification_title">Phone is in place</string>
+    <string name="notification_text">“%1$s” — every %2$d s</string>
+    <string name="notification_big_text">Vibration “%1$s” every %2$d s. The phone is in your pocket — you feel it.</string>
+
+    <string name="notification_channel_name">Background Vibration</string>
+    <string name="notification_channel_desc">Shows that interval vibration is currently active</string>
+
+    <plurals name="vibration_interval_seconds">
+        <item quantity="one">%1$d second</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+</resources>
