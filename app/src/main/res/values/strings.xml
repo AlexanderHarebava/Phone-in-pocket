@@ -4,14 +4,14 @@
 
 
     <string name="header_tag">PHONE IN POCKET</string>
-    <string name="header_title">It\'s right there —\nand you feel it</string>
+    <string name="header_title">It\'s right there -\nand you feel it</string>
     <string name="status_active">ACTIVE</string>
     <string name="status_off">OFF</string>
 
 
     <string name="dial_caption_running">sec until vibration</string>
     <string name="dial_caption_idle">sec · interval</string>
-    <string name="no_vibrator_warning">Vibrator not found — it seems this device does not support vibration.</string>
+    <string name="no_vibrator_warning">Vibrator not found - it seems this device does not support vibration.</string>
 
 
     <string name="section_interval">Interval</string>
@@ -46,10 +46,12 @@
     <string name="pattern_heartbeat_title">Heartbeat</string>
     <string name="pattern_heartbeat_subtitle">thump-thump, like a pulse</string>
 
+    <string name="section_about">About</string>
+    <string name="about_author">Developed by</string>
 
     <string name="notification_title">Phone is in place</string>
-    <string name="notification_text">“%1$s” — every %2$d s</string>
-    <string name="notification_big_text">Vibration “%1$s” every %2$d s. The phone is in your pocket — you feel it.</string>
+    <string name="notification_text">“%1$s” - every %2$d s</string>
+    <string name="notification_big_text">Vibration “%1$s” every %2$d s. The phone is in your pocket - you feel it.</string>
 
     <string name="notification_channel_name">Background Vibration</string>
     <string name="notification_channel_desc">Shows that interval vibration is currently active</string>
