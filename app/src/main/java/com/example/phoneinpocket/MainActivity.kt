@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.ServiceConnection
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.IBinder
@@ -271,6 +272,57 @@ private fun AppScreen(service: VibrationService?) {
                 style = MaterialTheme.typography.bodyMedium,
                 color = SlateMuted,
             )
+            Spacer(Modifier.height(48.dp))
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = stringResource(R.string.section_about).uppercase(),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = AquaMist,
+                    letterSpacing = 3.sp,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    text = stringResource(R.string.about_author),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = SlateMuted,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(Modifier.height(6.dp))
+
+                val context = LocalContext.current
+                Text(
+                    text = "Alexander Harebava",
+                    style = MaterialTheme.typography.bodyLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    color = AmberGlow,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable {
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/AlexanderHarebava"))
+                            try {
+                                context.startActivity(intent)
+                            } catch (_: Exception) {
+
+                            }
+                        }
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text = "github.com/AlexanderHarebava",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = SlateMuted.copy(alpha = 0.7f),
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
+            Spacer(Modifier.height(24.dp))
         }
     }
 }
